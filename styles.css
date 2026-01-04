@@ -3,7 +3,7 @@ body {
     padding: 0;
    max-height: 100vh;
   font-family: Arial, sans-serif;
-    background-color: #f8f6f3;
+     background: radial-gradient(circle at top, #dc6bc9, #5e5ee7);
    
 }
 .main {
@@ -15,21 +15,21 @@ body {
     padding: 40px;
     gap: 40px;
     margin: 40px auto;
-    background-color: darkblue;
+    background: -moz-radial-gradient(circle at top, lightblue,lightpink);
     border-radius: 15px;
 }
 .left {
     background-color: white;
     padding: 24px;
     border-radius: 14px;
-    
+     border: 1px solid #171616;
    
 }
 .right {                  
   background:white;
   padding: 24px;
   border-radius: 14px;
-   
+    border: 1px solid #171616;
   
 }
 .sub-nav ul {
@@ -76,7 +76,7 @@ body {
 
 .top-header {
   background: #ffffff;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #2b2929;
 }
 
 .header-inner {
@@ -88,7 +88,7 @@ body {
   margin: 0 0 12px;
   font-size: 1.8rem;
   font-weight: 700;
-  color: #1f2937; /* dark slate */
+  color: rgb(34, 34, 129);
 }
 .budget-form input, .expense-form input {
     width: calc(100% - 22px);
@@ -114,3 +114,13 @@ button:hover {
 .budget-form input:hover, .expense-form input:hover {
     border-color: rgb(150, 65, 79);
 }
+.expense-history {
+    display: flex;
+    padding: 10px;
+}
+.expense-history p {
+    flex: 1;
+    font-size: 1.1rem;
+    margin: 0 10px;
+}
+
