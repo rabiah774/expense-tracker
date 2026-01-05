@@ -17,7 +17,7 @@ All interactions and calculations will be implemented later using **JavaScript**
 ## 🛠️ Technologies Used
 
 - HTML5
-- CSS3 (Flexbox)
+- CSS3 
 
 ---
 
@@ -54,6 +54,6 @@ The following features will be added in future updates:
 
 ---
 
-## 📂 Project Structure
+
 
 
