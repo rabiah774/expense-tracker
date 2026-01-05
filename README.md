@@ -1,20 +1,59 @@
-💰 Budget Planner
+# 💰 Budget Planner
 
-A simple and responsive Budget Planner UI built using HTML and CSS.
-This project focuses on clean layout, modern styling, and proper UI structure for a personal finance tracker.
+A simple and responsive **Budget Planner UI** built using **HTML and CSS**.  
+This project focuses on layout design and frontend structure for a personal finance tracking application.
 
-📌 Project Overview
+---
 
-The Budget Planner helps users visually manage their budget by providing sections for:
+## 📌 Project Overview
 
-Setting a budget
+The **Budget Planner** is a frontend project that provides a clean user interface for managing personal budgets and expenses.
 
-Adding expenses
+Currently, this project includes only the **UI layer**.  
+All interactions and calculations will be implemented later using **JavaScript**.
 
-Viewing an expense list
+---
 
-Navigating between Dashboard, History, and Settings (UI only)
+## 🛠️ Technologies Used
 
-⚠️ Note:
-Currently, this project includes only the frontend (HTML & CSS).
-JavaScript functionality will be added in future updates.
+- HTML5
+- CSS3 (Flexbox)
+
+---
+
+## 🎨 Features (Current)
+
+- Clean and modern user interface
+- Responsive layout structure
+- Header with project title
+- Horizontal navigation bar with:
+  - Dashboard
+  - Add Expense
+  - History
+  - Settings
+- UI sections for:
+  - Setting a budget
+  - Adding expenses
+  - Viewing expense list
+- Proper semantic HTML structure
+
+---
+
+## 🚧 Features in Progress
+
+The following features will be added in future updates:
+
+- Set total budget dynamically
+- Add and list expenses
+- Automatic calculation of:
+  - Total expenses
+  - Remaining balance
+- Expense history tracking
+- Interactive navigation between sections
+- Data storage using localStorage
+
+---
+
+## 📂 Project Structure
+
+
