@@ -1,58 +1,106 @@
-# 💰 Budget Planner
+# 📌 Budget Planner / Expense Tracker
 
-A simple and responsive **Budget Planner UI** built using **HTML and CSS**.  
-This project focuses on layout design and frontend structure for a personal finance tracking application.
-
----
-
-## 📌 Project Overview
-
-The **Budget Planner** is a frontend project that provides a clean user interface for managing personal budgets and expenses.
-
-Currently, this project includes only the **UI layer**.  
-All interactions and calculations will be implemented later using **JavaScript**.
+A simple and interactive **Budget Planner Web Application** that helps users manage their budget, track expenses, and view expense history.  
+Built using **HTML, CSS, and JavaScript**, with data persistence using **localStorage**.
 
 ---
 
-## 🛠️ Technologies Used
+## 🚀 Features
 
-- HTML5
-- CSS3 
-
----
-
-## 🎨 Features (Current)
-
-- Clean and modern user interface
-- Responsive layout structure
-- Header with project title
-- Horizontal navigation bar with:
-  - Dashboard
-  - Add Expense
-  - History
-  - Settings
-- UI sections for:
-  - Setting a budget
-  - Adding expenses
-  - Viewing expense list
-- Proper semantic HTML structure
+- Set a total budget  
+- Add expenses with name and amount  
+- Automatically calculates:
+  - Total Expenses  
+  - Remaining Balance  
+- Expense History section
+- Data stored permanently using `localStorage`
+- Clean UI with section-based navigation
+- Beginner-friendly JavaScript logic
 
 ---
 
-## 🚧 Features in Progress
+## 🧩 Sections
 
-The following features will be added in future updates:
+### 🏠 Home (Dashboard)
+- Displays total budget
+- Displays total expenses
+- Displays remaining balance
 
-- Set total budget dynamically
-- Add and list expenses
-- Automatic calculation of:
-  - Total expenses
-  - Remaining balance
-- Expense history tracking
-- Interactive navigation between sections
-- Data storage using localStorage
+### ➕ Add Expense
+- Add expense name and amount
+- Automatically updates totals
+
+### 📜 History
+- Shows all added expenses
+- Data persists even after page refresh
+
+### ⚙️ Settings *(Coming Soon)*
+- Reset budget & expenses
+- Dark / Light mode
 
 ---
+
+## 🛠️ Tech Stack
+
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla JS)  
+- localStorage  
+
+---
+
+## 📂 Project Structure
+
+budget-planner/
+│
+├── index.html
+├── styles.css
+├── script.js
+├── README.md
+
+
+---
+
+## ⚙️ How It Works
+
+- Expenses are stored in an array
+- Array is saved to `localStorage`
+- Both Home and History sections use the same stored data
+- On page reload, data is restored automatically
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone the repository  
+   ```bash
+   git clone <repository-link>
+2. Open index.html in your browser
+
+3. Set budget and start adding expenses
+
+🔮 Future Enhancements
+
+Edit / Delete expenses
+
+Expense categories
+
+Monthly filters
+
+Charts and analytics
+
+Dark mode
+
+👩‍💻 Author
+
+Rabiah Mukhtar
+Frontend Developer (Beginner)
+Learning JavaScript by building real-world projects
+
+⭐ Feedback
+
+If you like this project, feel free to star ⭐ the repository
+and suggest improvements.
 
 
 
