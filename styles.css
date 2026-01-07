@@ -153,3 +153,41 @@ button:active {
     border: 2px solid rgba(35, 34, 34, 0.3);
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
 }
+/* Base styles for mobile */
+.container {
+  width: 100%;
+  padding: 15px;
+}
+
+/* Tablet and up */
+@media screen and (min-width: 768px) {
+  .container {
+    width: 750px;
+    padding: 30px;
+  }
+}
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+  /* Mobile styles */
+}
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+  /* Tablet styles */
+}
+
+/* Laptops */
+@media screen and (max-width: 1024px) {
+  /* Laptop styles */
+}
+
+/* Desktop */
+@media screen and (min-width: 1025px) {
+  /* Desktop styles */
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Styles for screens between 768px and 1024px */
+}
+@media screen and (orientation: landscape) {
+  /* Styles for landscape orientation */
+}
