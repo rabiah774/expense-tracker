@@ -61,14 +61,6 @@ budget-planner/
 
 ---
 
-## ⚙️ How It Works
-
-- Expenses are stored in an array
-- Array is saved to `localStorage`
-- Both Home and History sections use the same stored data
-- On page reload, data is restored automatically
-
----
 
 ## ▶️ How to Run the Project
 
