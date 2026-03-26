@@ -1,5 +1,5 @@
 # 📌 Budget Planner / Expense Tracker
-# **Live demo** - https://rabiah774.github.io/expense-tracker/
+**Live demo** - https://rabiah774.github.io/expense-tracker/
 A simple and interactive **Budget Planner Web Application** that helps users manage their budget, track expenses, and view expense history.  
 Built using **HTML, CSS, and JavaScript**, with data persistence using **localStorage**.
 
