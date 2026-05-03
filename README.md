@@ -16,7 +16,7 @@ Built using **HTML, CSS, and JavaScript**, with data persistence using **localSt
   - Total Expenses  
   - Remaining Balance  
 - Expense History section
-- Data stored permanently using `localStorage`
+- Data stored with the help of dom manipulation technology
 - Clean UI with section-based navigation
 - Beginner-friendly JavaScript logic
 
@@ -33,9 +33,6 @@ Built using **HTML, CSS, and JavaScript**, with data persistence using **localSt
 - Add expense name and amount
 - Automatically updates totals
 
-### 📜 History
-- Shows all added expenses
-- Data persists even after page refresh
 
 ### ⚙️ Settings *(Coming Soon)*
 - Reset budget & expenses
@@ -48,7 +45,6 @@ Built using **HTML, CSS, and JavaScript**, with data persistence using **localSt
 - HTML5  
 - CSS3  
 - JavaScript (Vanilla JS)  
-- localStorage  
 
 ---
 
