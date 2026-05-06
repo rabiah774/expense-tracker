@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
-</head>
+   
 <body>
 
    <header class="top-header">
@@ -35,18 +34,18 @@
    <div class="app-container">
     
      <div class="left">
-          <div class="budget-form">
+          <div class="budget-form" id="budget-form">
             <h2>Set Your Budget</h2>
             <input type="number" id="budget-input" placeholder="Enter your budget">
-            <button type="submit" id="set-budget-btn">Add Budget</button>
+            <button type="button" id="set-budget-btn">Add Budget</button>
           </div>
          
 
-        <div class="expense-form">
+        <div class="expense-form" id="expense-form">
             <h2>Add Expense</h2>
             <input type="text" id="expense-name-input" placeholder="Expense Name">
             <input type="number" id="expense-amount-input" placeholder="Expense Amount">
-            <button type="submit" id="add-expense-btn">Add Expense</button>
+            <button type="button" id="add-expense-btn">Add Expense</button>
         </div>
       </div>
      
@@ -57,9 +56,9 @@
             <p>Total Expenses - $<span id="total-expenses">0</span></p>
             <p>Remaining Balance - $<span id="remaining-balance">0</span></p>
         </div>
-         <div id="expense-list">
+         <div id="expense">
             <h2>Expense List</h2>
-            <ol id="expenses-ol"></ol>
+            <ul id="expenses-list"></ul>
         </div>
        </div>
     </div>
@@ -69,7 +68,7 @@
   <!-- add expense content -->
    <div class="page-card">
 
-        <div class="expense-form">
+        <div class="expense-form" id="expense-form">
             <h2>Add Expense</h2>
             <input type="text" id="expense-name-input" placeholder="Expense Name">
             <input type="number" id="expense-amount-input" placeholder="Expense Amount">
@@ -87,9 +86,9 @@
             <p>Remaining Balance - $<span id="remaining-balance">0</span></p>
         </div>
 
-        <div id="expense-list">
+        <div id="expense">
             <h2>Expense List</h2>
-            <ul id="expenses-ul"></ul>
+            <ul id="expense-list"></ul>
         </div>
    </div>
     
@@ -100,6 +99,6 @@
 </section>
   </main>
    
-    
+     <script src="script.js"></script> 
 </body>
 </html>
